@@ -5,7 +5,7 @@ const ms = require("ms");
 
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setGame(` `,"http://twitch.tv/S-F")
+  client.user.setGame(` `,"http://twitch.tv/snowyxoxo2")
     console.log('')
     console.log('')
     console.log('╔[═════════════════════════════════════════════════════════════════]╗')
