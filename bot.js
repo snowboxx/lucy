@@ -32,29 +32,29 @@ client.on('ready', () => {
 
 
 client.on('message', msg => {
-    if (msg.content === 'exa') {
+    if (msg.content === 'snowy') {
+      msg.reply('the person you are trying to reach is unavailable');
+    }
+}); 
+
+
+client.on('message', msg => {
+    if (msg.content === 'angela') {
       msg.reply('oui ?');
     }
 }); 
 
 
 client.on('message', msg => {
-    if (msg.content === 'exxa') {
-      msg.reply('oui ?');
+    if (msg.content === 'weld familya') {
+      msg.reply('chbi baba ?');
     }
 }); 
 
 
 client.on('message', msg => {
-    if (msg.content === 'exaa') {
-      msg.reply('oui');
-    }
-}); 
-
-
-client.on('message', msg => {
-    if (msg.content === 'exaaa') {
-      msg.reply('oui ?');
+    if (msg.content === 'pysco') {
+      msg.reply('eb3ed zeby la nefle9 rbk 3al 7yt');
     }
 }); 
 
@@ -63,15 +63,21 @@ client.on('message', msg => {
 
 
 client.on('message', msg => {
-    if (msg.content === 'aksel') {
-      msg.reply('rod belek tejbed el AKSEL 3la fomek');
+    if (msg.content === 'sana') {
+      msg.reply('aywah ?');
     }
 }); 
 
 
 client.on('message', msg => {
-    if (msg.content === 'delmore') {
-      msg.reply('huum ?');
+    if (msg.content === 'firas') {
+      msg.reply('hoy hoy hoy ani jyt');
+    }
+}); 
+
+client.on('message', msg => {
+    if (msg.content === 'nano') {
+      msg.reply('aya trayeh pubg ?');
     }
 }); 
 
